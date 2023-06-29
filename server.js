@@ -2,21 +2,18 @@ const path = require('path');
 const http = require('http')
 const cors = require('cors')
 const express = require('express');
-const {Server} = require("socket.io")
-const app = express();
-app.use(cors());
+const socketio = require('socket.io')
+
 
 const formatMessage = require('./utils/messages')
 const { userJoin, getCurrentUser, userLeave, getRoomUser } = require('./utils/users')
 
 
+const app = express();
+app.use(cors());
 const server = http.createServer(app)
-const io = new Server(server,{
-    cors:{
-        origin:"https://chat-room-two-ebon.vercel.app/",
-        methods:["GET","POST"],
-    }
-})
+
+const io = socketio(server)
 
 const botName = 'ChatCord Bot'
 
@@ -24,7 +21,7 @@ const botName = 'ChatCord Bot'
 // app.use(path,callback function)->path pr jane se phle middleware callback function check krega
 // express.static(root) -> to serve static files at root directory i.e. image,css,js file 
 // path.join(path1,path2) -> to join different different path to one
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname,'public')))
 
 //run when a client connect
 io.on('connection', socket => {
