@@ -1,4 +1,3 @@
-# CHAT-ROOM : https://chat-room-gbdw.onrender.com/
 FOR LIVE LINK - DM ME ON TWITTER(https://twitter.com/priyanshuYd_v) | INSTAGRAM (https://www.instagram.com/priyanshupower/)
 
 LOGIN PAGE
