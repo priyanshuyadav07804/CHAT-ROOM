@@ -1,4 +1,5 @@
 # CHAT-ROOM : https://chat-room-gbdw.onrender.com/
+FOR LIVE LINK - DM ME ON TWITTER(https://twitter.com/priyanshuYd_v) | INSTAGRAM (https://www.instagram.com/priyanshupower/)
 
 LOGIN PAGE
 
@@ -28,8 +29,6 @@ MUSK GOT MSG "HI" FROM BEZOS AND MUSK SEND "HI BEZOS"
 
 ![alt text](https://github.com/priyanshuyadav07804/CHAT-ROOM/assets/80442935/0ae057a7-bc4a-4503-bae5-a843613ae309)
 
-
-![alt text]
 
 
 
